@@ -10,7 +10,7 @@
 
 ## 需求
 1. 目前已经有`src/api/user.ts` 以及 `src/api/org.ts` 两个API
-2. 需要实现如下功能：
+2. 需要实现如下效果界面：
 
-[](./docs/preview.jpg)
+![](./docs/preview.jpg)
 
