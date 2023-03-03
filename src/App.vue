@@ -5,7 +5,6 @@ import orgApi from './api/org'
 
 let user = ref<any>()
 let org = ref<any>()
-console.log('111 :>> ', 111);
 onMounted(() => {
   userApi.query({}).then((res) => (user.value = res))
   orgApi.query().then((res) => (org.value = res))
